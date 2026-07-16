@@ -136,21 +136,31 @@ export default function ProjectModal({ projectId, onClose }: ProjectModalProps) 
           {project.category}
         </span>
 
-        {/* Mock visual placeholder */}
-        <div className="w-full h-[220px] rounded-2xl bg-gradient-to-br from-rose-gold-light/20 to-[#b3737b]/15 flex flex-col items-center justify-center text-burgundy border border-white/50 mb-6 shrink-0">
-          <svg
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="1.5"
-            className="w-12 h-12 mb-2 opacity-70"
-          >
-            <rect x="2" y="2" width="20" height="20" rx="2" ry="2"></rect>
-            <path d="M12 18L12 6M6 12L18 12" strokeDasharray="2 2"></path>
-          </svg>
-          <span className="font-serif text-[1.2rem] font-semibold">
-            {project.category} Console
-          </span>
+        {/* Scrollable Images Container (Carousel) */}
+        <div className="w-full mb-6 flex overflow-x-auto gap-4 snap-x snap-mandatory pb-2">
+          {[1, 2, 3].map((index) => (
+            <div 
+              key={index} 
+              className="w-[85%] sm:w-[90%] shrink-0 h-[220px] rounded-2xl bg-gradient-to-br from-rose-gold-light/20 to-[#b3737b]/15 flex flex-col items-center justify-center text-burgundy border border-white/50 snap-center relative overflow-hidden"
+            >
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                className="w-12 h-12 mb-2 opacity-70"
+              >
+                <rect x="2" y="2" width="20" height="20" rx="2" ry="2"></rect>
+                <path d="M12 18L12 6M6 12L18 12" strokeDasharray="2 2"></path>
+              </svg>
+              <span className="font-serif text-[1.2rem] font-semibold">
+                Gambar {index}
+              </span>
+              <span className="font-sans text-[0.75rem] text-[#6e585c] mt-2">
+                (Ganti dengan tag &lt;img&gt; nanti)
+              </span>
+            </div>
+          ))}
         </div>
 
         {/* Description */}
