@@ -7,7 +7,6 @@ import Stats from "@/components/Stats";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
-import UIUX from "@/components/UIUX";
 import Journey from "@/components/Journey";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -48,7 +47,6 @@ export default function Home() {
         <About />
         <Skills />
         <Projects onSelectProject={(id) => setSelectedProject(id)} />
-        <UIUX />
         <Gallery />
         <Journey />
         <Contact />
