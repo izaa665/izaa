@@ -17,8 +17,12 @@ export const metadata: Metadata = {
   description: "Portofolio premium Azizahwati Mutmainnah, Web Developer, Mobile Developer, UI/UX Designer, dan AI Enthusiast. Temukan antarmuka modern yang fungsional dan estetis.",
 };
 
-export const viewport = {
-  width: 1024,
+import type { Viewport } from "next";
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
 };
 
 export default function RootLayout({
