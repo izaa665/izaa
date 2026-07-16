@@ -41,7 +41,6 @@ export default function Navbar() {
     { label: "Tentang Saya", href: "#about", id: "about" },
     { label: "Keahlian", href: "#skills", id: "skills" },
     { label: "Proyek", href: "#projects", id: "projects" },
-    { label: "Galeri", href: "#gallery", id: "gallery" },
     { label: "Tujuan", href: "#goals", id: "goals" },
     { label: "Hubungi Saya", href: "#contact", id: "contact" },
   ];

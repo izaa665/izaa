@@ -12,8 +12,6 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import ProjectModal from "@/components/ProjectModal";
 
-import Gallery from "@/components/Gallery";
-
 export default function Home() {
   const [selectedProject, setSelectedProject] = useState<string>("");
 
@@ -47,7 +45,6 @@ export default function Home() {
         <About />
         <Skills />
         <Projects onSelectProject={(id) => setSelectedProject(id)} />
-        <Gallery />
         <Journey />
         <Contact />
       </main>
