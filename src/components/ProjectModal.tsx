@@ -137,7 +137,7 @@ export default function ProjectModal({ projectId, onClose }: ProjectModalProps) 
         </span>
 
         {/* Scrollable Images Container (Carousel) */}
-        <div className="w-full mb-6 flex overflow-x-auto gap-4 snap-x snap-mandatory pb-2">
+        <div className="w-full mb-6 flex overflow-x-auto gap-4 snap-x snap-mandatory pb-2 hide-scrollbar">
           {[1, 2, 3].map((index) => (
             <div 
               key={index} 
