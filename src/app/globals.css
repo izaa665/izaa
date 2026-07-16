@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-serif: var(--font-playfair);
+  --font-sans: var(--font-outfit);
+  --color-burgundy: #54162b;
+  --color-rose-gold: #b3737b;
+  --color-rose-gold-light: #ecc8c5;
+}
+
+:root {
+  --glass-bg: rgba(255, 255, 255, 0.45);
+  --glass-border: rgba(255, 255, 255, 0.6);
+  --glass-accent-border: rgba(179, 115, 123, 0.2);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #fffcfd;
+}
+::-webkit-scrollbar-thumb {
+  background: #ecc8c5;
+  border-radius: 9999px;
+  border: 2px solid #fffcfd;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b3737b;
+}
+
+/* Custom animations */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+  100% { transform: translateY(0px); }
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 0.65; }
+  50% { transform: scale(1.08); opacity: 1; }
+  100% { transform: scale(1); opacity: 0.65; }
+}
+
+.animate-float {
+  animation: float 6s infinite ease-in-out;
+}
+
+.animate-pulse-slow {
+  animation: pulse 3s infinite ease-in-out;
+}
+
+.animate-pulse-heart {
+  animation: pulse 1.5s infinite;
+}
+
+/* Glassmorphism Helper */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 12px 30px rgba(179, 115, 123, 0.08);
+}
+
+.glass-panel:hover {
+  border-color: rgba(179, 115, 123, 0.2);
+  box-shadow: 0 20px 40px rgba(179, 115, 123, 0.12);
+}
+
+/* Reveal classes for scroll animation */
+.reveal-element {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal-element.reveal-active {
+  opacity: 1;
+  transform: translateY(0);
+}
