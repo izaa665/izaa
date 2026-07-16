@@ -149,7 +149,9 @@ export default function Contact() {
 
               {/* LinkedIn Card */}
               <a
-                href="#"
+                href="https://www.linkedin.com/in/azizahwati-mutmainnah-6482a22ba"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-4 sm:p-6 flex items-center gap-4 rounded-2xl glass-panel shadow-sm text-decoration-none transition-all duration-300 hover:-translate-y-[2px]"
               >
                 <div className="w-10 h-10 sm:w-[50px] sm:h-[50px] rounded-xl bg-gradient-to-br from-[#0A66C2] to-[#004182] text-white flex items-center justify-center shadow-md shadow-[#004182]/15 shrink-0">
