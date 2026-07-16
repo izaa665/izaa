@@ -136,26 +136,8 @@ export default function Hero() {
 
           {/* Large Empty Portrait Placeholder */}
           <div className="relative w-full max-w-[130px] h-[175px] sm:max-w-[280px] sm:h-[380px] lg:max-w-[340px] lg:h-[460px] bg-white/20 border border-dashed border-rose-gold rounded-[40px_12px_40px_12px] sm:rounded-[100px_35px_100px_35px] lg:rounded-[120px_40px_120px_40px] shadow-lg sm:shadow-2xl z-10 before:content-[''] before:absolute before:-top-1 before:-left-1 before:-right-1 before:-bottom-1 sm:before:-top-3 sm:before:-left-3 sm:before:-right-3 sm:before:-bottom-3 before:border before:border-[#ecc8c5]/60 before:rounded-[45px_15px_45px_15px] sm:before:rounded-[110px_40px_110px_40px] lg:before:rounded-[130px_50px_130px_50px] before:pointer-events-none before:z-0">
-            <div className="absolute top-[5px] left-[5px] right-[5px] bottom-[5px] sm:top-[15px] sm:left-[15px] sm:right-[15px] sm:bottom-[15px] rounded-[35px_10px_35px_10px] sm:rounded-[90px_25px_90px_25px] lg:rounded-[105px_30px_105px_30px] bg-gradient-to-br from-white/70 to-[#fdf2f4]/30 flex flex-col items-center justify-center text-rose-gold p-2 sm:p-8 text-center z-10">
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1"
-                strokeLinejoin="round"
-                strokeLinecap="round"
-                className="w-6 h-6 sm:w-12 sm:h-12 mb-1 sm:mb-4 opacity-70 animate-pulse-slow"
-              >
-                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                <circle cx="8.5" cy="8.5" r="1.5"></circle>
-                <polyline points="21 15 16 10 5 21"></polyline>
-              </svg>
-              <span className="text-[0.55rem] sm:text-[0.85rem] font-medium tracking-wider uppercase text-burgundy/70">
-                Letakkan Foto Di Sini
-              </span>
-              <span className="hidden sm:block text-[0.75rem] text-[#6e585c] mt-2">
-                Didesain khusus untuk penempatan foto portrait nanti
-              </span>
+            <div className="absolute top-[5px] left-[5px] right-[5px] bottom-[5px] sm:top-[15px] sm:left-[15px] sm:right-[15px] sm:bottom-[15px] rounded-[35px_10px_35px_10px] sm:rounded-[90px_25px_90px_25px] lg:rounded-[105px_30px_105px_30px] overflow-hidden z-10 bg-gradient-to-br from-white/70 to-[#fdf2f4]/30">
+              <img src="/img/izaa.jpeg" alt="Azizahwati Mutmainnah" className="w-full h-full object-cover" />
             </div>
 
             {/* SVG Botanical / Floral Lines */}
