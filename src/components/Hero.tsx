@@ -93,6 +93,8 @@ export default function Hero() {
                 <a
                   key={social.label}
                   href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full border border-white/60 bg-white/45 flex items-center justify-center text-burgundy transition-all duration-300 hover:bg-gradient-to-br hover:from-[#ecc8c5] hover:to-[#b3737b] hover:text-white hover:border-transparent hover:-translate-y-1 hover:rotate-[8deg]"
                   aria-label={social.label}
                 >
