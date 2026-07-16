@@ -93,7 +93,7 @@ export default function Skills() {
             >
               {/* Category Icon */}
               <div className="w-10 h-10 sm:w-14 sm:h-14 rounded-xl sm:rounded-2xl bg-gradient-to-br from-[#ecc8c5] to-[#b3737b] text-white flex items-center justify-center mb-4 sm:mb-7 shadow-md sm:shadow-lg shadow-[#b3737b]/10 sm:shadow-[#b3737b]/20 shrink-0">
-                {React.cloneElement(group.icon as React.ReactElement, {
+                {React.cloneElement(group.icon as React.ReactElement<{ className?: string }>, {
                   className: "w-5 h-5 sm:w-6 sm:h-6"
                 })}
               </div>
