@@ -89,7 +89,7 @@ export default function Hero() {
                 },
                 {
                   label: "Instagram",
-                  href: "#",
+                  href: "https://www.instagram.com/meiizyaa/",
                   icon: (
                     <>
                       <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />

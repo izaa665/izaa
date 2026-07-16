@@ -180,7 +180,9 @@ export default function Contact() {
 
               {/* Instagram Card */}
               <a
-                href="#"
+                href="https://www.instagram.com/meiizyaa/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-4 sm:p-6 flex items-center gap-4 rounded-2xl glass-panel shadow-sm text-decoration-none transition-all duration-300 hover:-translate-y-[2px]"
               >
                 <div className="w-10 h-10 sm:w-[50px] sm:h-[50px] rounded-xl bg-gradient-to-br from-[#E1306C] to-[#C13584] text-white flex items-center justify-center shadow-md shadow-[#C13584]/15 shrink-0">
@@ -204,7 +206,7 @@ export default function Contact() {
                     Instagram
                   </span>
                   <span className="font-sans text-[0.8rem] sm:text-[1rem] font-semibold text-burgundy truncate">
-                    @azzhmutmainnah
+                    @meiizyaa
                   </span>
                 </div>
               </a>
