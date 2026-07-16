@@ -53,7 +53,7 @@ export default function About() {
     },
     {
       label: "Fokus Utama",
-      value: "Web, Mobile, UI/UX & AI",
+      value: "Web & Mobile",
       icon: (
         <>
           <polygon points="12 2 2 7 12 12 22 7 12 2" />
@@ -107,7 +107,7 @@ export default function About() {
             </h3>
             <div className="font-sans text-[1.05rem] text-[#6e585c] font-light leading-relaxed mb-8 space-y-5">
               <p>
-                Perkenalkan, saya Azizahwati Mutmainnah, seorang mahasiswa yang memiliki minat besar dalam dunia teknologi, khususnya <strong>Web Development, Mobile Development, UI/UX Design, serta Artificial Intelligence</strong>.
+                Perkenalkan, saya Azizahwati Mutmainnah, seorang mahasiswa yang memiliki minat besar dalam dunia teknologi, khususnya <strong>Web Development dan Mobile Development</strong>.
               </p>
               <p>
                 Saya percaya bahwa sebuah aplikasi yang baik bukan hanya mampu menyelesaikan suatu permasalahan, tetapi juga harus mudah digunakan, memiliki tampilan yang menarik, serta memberikan pengalaman terbaik bagi penggunanya.
@@ -120,8 +120,6 @@ export default function About() {
               {[
                 "Web Development",
                 "Mobile Development",
-                "UI/UX Design",
-                "Artificial Intelligence",
               ].map((badge) => (
                 <span
                   key={badge}

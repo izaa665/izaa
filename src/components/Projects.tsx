@@ -51,7 +51,7 @@ export default function Projects({ onSelectProject }: ProjectsProps) {
       desc: "Sistem absensi berbasis pengenalan wajah yang memanfaatkan teknologi Computer Vision dan Machine Learning untuk absensi otomatis.",
       status: "Selesai",
       statusClass: "bg-[#e1fbf2] text-[#0e8a5f]",
-      category: "AI / Web",
+      category: "Web Application",
       techs: ["Python", "Flask", "OpenCV", "MTCNN", "FaceNet", "KNN", "MySQL"],
       icon: (
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-11 h-11 mb-3 opacity-85">
@@ -160,7 +160,7 @@ export default function Projects({ onSelectProject }: ProjectsProps) {
             Project
           </h2>
           <p className="font-sans text-[1.05rem] text-[#6e585c] font-light max-w-[700px] mx-auto mt-4">
-            Selama proses belajar dan pengembangan kemampuan, saya telah mengerjakan berbagai proyek dalam bidang pengembangan aplikasi mobile, website, UI/UX, serta implementasi Artificial Intelligence.
+            Selama proses belajar dan pengembangan kemampuan, saya telah mengerjakan berbagai proyek dalam bidang pengembangan aplikasi mobile dan website.
           </p>
         </div>
 

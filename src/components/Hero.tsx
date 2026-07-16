@@ -32,11 +32,9 @@ export default function Hero() {
             <span>Web Developer</span>
             <span className="text-[#ecc8c5]">•</span>
             <span>Mobile Developer</span>
-            <span className="text-[#ecc8c5]">•</span>
-            <span>UI/UX Designer</span>
           </div>
           <p className="font-sans text-[0.95rem] sm:text-[1.05rem] text-[#6e585c] font-light leading-relaxed max-w-[580px] mb-8 sm:mb-10">
-            Saya adalah mahasiswa yang memiliki minat besar dalam bidang Web Development, Mobile Development, dan UI/UX Design. Saya percaya bahwa teknologi dapat menjadi solusi untuk berbagai kebutuhan apabila dipadukan dengan desain yang baik dan pengalaman pengguna yang nyaman. Melalui setiap proyek, saya terus mengembangkan kemampuan untuk menciptakan produk digital yang modern, fungsional, dan memberikan manfaat bagi banyak orang.
+            Saya adalah mahasiswa yang memiliki minat besar dalam bidang Web Development dan Mobile Development. Saya percaya bahwa teknologi dapat menjadi solusi untuk berbagai kebutuhan apabila dipadukan dengan implementasi yang baik dan pengalaman pengguna yang nyaman. Melalui setiap proyek, saya terus mengembangkan kemampuan untuk menciptakan produk digital yang modern, fungsional, dan memberikan manfaat bagi banyak orang.
           </p>
           <div className="flex gap-4 sm:gap-6 mb-8 sm:mb-12 flex-wrap justify-center lg:justify-start">
             <a
